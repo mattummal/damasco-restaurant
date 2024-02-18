@@ -30,10 +30,10 @@ const Footer = () => {
             <Link href="/restaurant">Restaurant</Link>
           </li>
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
-            <Link href="/classes">Classes</Link>
+            <Link href="/culture">Culture</Link>
           </li>
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
-            <Link href="/book-a-table">Book a Table</Link>
+            <Link href="/book-a-table">Reserve</Link>
           </li>
           <li className="mb-[16px] text-[16px] text-white text-opacity-50 cursor-pointer">
             <Link href="/contact">Contact</Link>

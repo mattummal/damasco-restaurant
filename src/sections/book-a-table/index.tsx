@@ -41,7 +41,7 @@ const BookATableSection: FC = () => {
 
       <div className="w-full lg:w-[50%] flex flex-col justify-center h-auto lg:px-0 px-4 lg:py-0 py-6">
         <div className="max-w-[560px] h-auto mx-auto w-full">
-          <h2 className="text-[40px] font-medium">Book a table</h2>
+          <h2 className="text-[40px] font-medium">Reserve your Table</h2>
           <p className="text-white text-opacity-50 text-[20px] mt-[16px]">
             Our dining atmosphere is casual and comfortable. To reflect this
             environment, we maintain a formal dress.
@@ -89,7 +89,7 @@ const BookATableSection: FC = () => {
               </div>
             </div>
             <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
-              Book A Table
+              Reserve
             </button>
           </form>
         </div>

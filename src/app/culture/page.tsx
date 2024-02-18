@@ -10,7 +10,7 @@ import Link from "next/link";
 import Head from "next/head";
 import useWindow from "@/hooks/useWindow";
 
-export default function Classes() {
+export default function Culture() {
   const { width } = useWindow();
 
   const mobileRow = width <= 540 ? 1 : 2;

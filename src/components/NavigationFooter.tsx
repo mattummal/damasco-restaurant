@@ -38,10 +38,10 @@ const NavigationFooter: React.FC = () => {
           </li>
           <li className="hidden sm:block">
             <Link
-              href="classes"
+              href="culture"
               className="h-[48px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] hover:bg-gray-100"
             >
-              Classes
+              Culture
             </Link>
           </li>
           <li className="">
@@ -49,7 +49,7 @@ const NavigationFooter: React.FC = () => {
               href="book-a-table"
               className="h-[48px] font-medium text-[14px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] text-white bg-black uppercase"
             >
-              Book A Table
+              Reserve
             </Link>
           </li>
         </ul>
@@ -88,9 +88,9 @@ const NavigationFooter: React.FC = () => {
             </li>
 
             <li className="mb-[16px] block md:hidden">
-              <Link href="/classes">
+              <Link href="/culture">
                 <div className="text-[32px] hover:text-gray-600 h-[48px] px-[10px] border-b border-transparent hover:border-gray-300">
-                  Classes
+                  Culture
                 </div>
               </Link>
             </li>

@@ -13,8 +13,8 @@ export default function Home() {
 
       <main className="min-h-screen relative overflow-hidden w-full">
         <section className="!fixed inset-0 min-h-screen w-full bg-transparent flex flex-col items-center justify-between p-8 md:p-12 z-[20]">
-          <Link href="/" className="font-semibold cursor-pointer text-3xl">
-            DAMASCO
+          <Link href="/" className="cursor-pointer font-extrabold text-5xl">
+            D A M A S C O
           </Link>
 
           <div className="flex flex-col items-center">

@@ -88,7 +88,7 @@ export default function BookATable() {
                 />
 
                 <button className="bg-[#F8D49E] active:scale-95 hover:bg-[#f4ca8a] duration-150 mt-[48px] w-full text-black text-[16px] uppercase flex items-center justify-center rounded-[500px] h-[60px]">
-                  Book A Table
+                  Reserve
                 </button>
               </form>
             </div>
