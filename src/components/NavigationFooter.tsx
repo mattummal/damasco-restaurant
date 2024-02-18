@@ -7,13 +7,13 @@ const NavigationFooter: React.FC = () => {
   const [isMenu, setIsMenu] = useState<boolean>(false);
 
   return (
-    <div className="w-full max-w-[520px] h-[68px] relative">
-      <div className="w-full max-w-[520px] h-[68px] rounded-[100px] bg-white mt-[22px] text-black">
+    <div className="w-full max-w-[500px] h-[58px] relative">
+      <div className="w-full max-w-[460px] h-[38px] rounded-[100px] bg-white mt-[25px] text-black fixed  top-5 left-50 z-50">
         <ul className="w-full h-full flex items-center justify-between md:justify-normal p-[10px]">
           <li>
             <button
               onClick={() => setIsMenu(true)}
-              className="h-[48px] w-[48px] rounded-[50%] flex items-center justify-center bg-slate-300 duration-150 active:scale-95 group overflow-hidden"
+              className="h-[28px] w-[28px] rounded-[50%] flex items-center justify-center bg-slate-300 duration-150 active:scale-95 group overflow-hidden"
             >
               <span className="group-hover:animate-bounce">
                 <BsThreeDotsVertical />
@@ -47,7 +47,7 @@ const NavigationFooter: React.FC = () => {
           <li className="">
             <Link
               href="book-a-table"
-              className="h-[48px] font-medium text-[14px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] text-white bg-black uppercase"
+              className="h-[28px] font-medium text-[14px] cursor-pointer rounded-[100px] flex items-center justify-center p-[16px] ml-[14px] text-white bg-black uppercase"
             >
               Reserve
             </Link>

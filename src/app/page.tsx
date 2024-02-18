@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className="min-h-screen relative overflow-hidden w-full">
         <section className="!fixed inset-0 min-h-screen w-full bg-transparent flex flex-col items-center justify-between p-8 md:p-12 z-[20]">
-          <Link href="/" className="cursor-pointer font-extrabold text-5xl">
+          <Link href="/" className="cursor-pointer font-extrabold text-5xl mt-12">
             D A M A S C O
           </Link>
 
@@ -27,8 +27,6 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-[19px] italic text-center md:text-start mt-[50px] md:max-w-[600px]">
-            Savor the rich flavors of the Middle East at our restaurant, where traditional recipes meet modern flair.
-            Indulge in a culinary journey through Syria and Lebanon, where each dish is crafted with care and passion.
             From aromatic spices to mouthwatering mezze, discover the true essence of Levantine cuisine.
             Join us for a dining experience like no other.
             </p>
